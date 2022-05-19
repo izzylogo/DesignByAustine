@@ -1,0 +1,20 @@
+.patners {
+    background-color: rgba(81, 147, 244, 1);
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    font-size: 24px;
+}
+
+.patners p {
+    height: 60px;
+    /* margin-top: 0px; */
+    /* padding-bottom: 10px; */
+}
+
+.patner-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
