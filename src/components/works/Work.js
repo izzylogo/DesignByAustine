@@ -6,7 +6,7 @@ import web3 from '../../assets/web3.0.svg'
 
 const Work = () => {
   return (
-    <div className='work'>
+    <div className='work' name='work'>
         <h3>our recent works</h3>
         <div className="workshow">
             <WorkTab 

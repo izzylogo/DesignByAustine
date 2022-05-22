@@ -6,6 +6,8 @@ import Reason from './components/reasons/Reason'
 import Work from './components/works/Work';
 import Client from './components/client/Client';
 import Partners from './components/partners/Partners';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Work/>
       <Client />
       <Partners />
+      <Contact />
+      <Footer />
     </div>
   );
 }

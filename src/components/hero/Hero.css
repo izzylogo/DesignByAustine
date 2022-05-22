@@ -100,3 +100,10 @@
         height: 300px;
     }
 }
+
+@media screen and (max-width: 330px) {
+    .image {
+        width: 250px;
+        height: 250px;
+    }
+}

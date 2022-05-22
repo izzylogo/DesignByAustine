@@ -14,7 +14,13 @@
 
 .patner-logo {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     align-items: center;
     justify-content: space-evenly;
 
+}
+
+@media screen and (max-width:) {
+    
 }

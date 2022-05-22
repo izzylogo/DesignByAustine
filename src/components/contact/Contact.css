@@ -1,0 +1,56 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 30px;
+}
+
+.contactHead {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contactP{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.contactbtn{
+    display: flex;
+    gap: 20px;  
+}
+
+.contactbtn button {
+    width: 200px;
+    height: 48px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.contactbtn1{
+    background-color: rgba(81, 147, 244, 1);
+    border: none;
+}
+
+.contactbtn2 {
+    background-color: transparent;
+    border: 1px solid rgba(81, 147, 244, 1);
+    color: rgba(81, 147, 244, 1)!important;
+}
+
+@media screen and (max-width: 960px) {
+    .contact {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contactbtn {
+        display: flex;
+        flex-direction: column;
+    }
+}

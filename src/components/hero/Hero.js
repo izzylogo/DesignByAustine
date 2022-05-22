@@ -5,7 +5,7 @@ import image from '../../assets/image.svg'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero' name='home'>
         <div className="intro">
             <h2>LET US HANDLE THE DESIGNS.</h2>
             <p>we are professional user interface designers who would help design & prototype  your application or website ideas.</p>

@@ -39,7 +39,7 @@
 .reasonBody {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
@@ -49,24 +49,51 @@
     align-items: center;
     /* text-align: center; */
 }
-/* 
+
+#sec li {
+    margin-left: 120px;
+}
+
 #arrow {
-    position: absolute;
+    margin-left: 50px;
+    /* position: absolute;
     top: 40%;
-    left: 20%;
+    left: 20%; */
 }
 
 #arrow2 {
-    position: absolute;
+    margin-left: 80px;
+    margin-top: 30px;
+    /* position: absolute;
     top: 66%;
-    left: 24%;
+    left: 24%; */
 }
 
 #arrow3 {
-    position: absolute;
+    margin-left: 60px;
+    margin-top: 10px;
+    transform: rotate(20deg);
+    /* position: absolute;
     top: 88%;
-    left: 17%;
-} */
+    left: 17%; */
+}
+
+#arrow4{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+#arrow5{
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#arrow6{
+    margin-top: 10px;
+    transform: rotate(-50deg);
+    /* margin-right: 20px; */
+}
 
 @media screen and (max-width: 700px) {
     .list img {
@@ -85,5 +112,29 @@
 @media screen and (max-width: 480px) {
     .man {
         display: none;
+    }
+
+    .reasonBody {
+        display: block;
+        text-align: center;
+    }
+
+    .reason p {
+        font-size: 26px;
+    }
+
+    .reasonBody li {
+        list-style: none;
+        font-size: 20px;
+    }
+
+    #sec li {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .reason h3 {
+        padding-top: 0px;
     }
 }

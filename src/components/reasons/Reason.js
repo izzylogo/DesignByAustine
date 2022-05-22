@@ -25,7 +25,7 @@ const reason = () => {
             <div className='sitting'>
                 <img src={mansit} alt="man" className='man'/>
             </div>
-            <ul className='list'>
+            <ul className='list' id='sec'>
                 <li>Developers walkthrough</li>
                 <img src={arrow4} alt="arrow4" id='arrow4'/>
                 <li>Full case study</li>
