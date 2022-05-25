@@ -25,15 +25,16 @@
 
 .man {
     position: absolute;
-    /* top: 50%; */
     bottom: 0;
-    /* width: 400px; */
+    /* width: 50vh; */
+    height: 50vh;
 }
 
 .sitting {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin: 0 auto; */
 }
 
 .reasonBody {
@@ -45,55 +46,55 @@
 
 .list li {
     color: white;
-    /* margin-top: 100px; */
+    margin-top: 40px;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
 }
 
 #sec li {
     margin-left: 120px;
 }
 
-#arrow {
-    margin-left: 50px;
+/* #arrow { */
+    /* margin-left: 50px; */
     /* position: absolute;
     top: 40%;
     left: 20%; */
-}
+/* } */
 
-#arrow2 {
-    margin-left: 80px;
-    margin-top: 30px;
+/* #arrow2 { */
+    /* margin-left: 80px; */
+    /* margin-top: 0px; */
     /* position: absolute;
     top: 66%;
     left: 24%; */
-}
+/* } */
 
-#arrow3 {
+/* #arrow3 {
     margin-left: 60px;
-    margin-top: 10px;
-    transform: rotate(20deg);
+    margin-top: 0px;
+    transform: rotate(20deg); */
     /* position: absolute;
     top: 88%;
     left: 17%; */
-}
+/* } */
 
-#arrow4{
+/* #arrow4{
     margin-right: 100px;
-    margin-top: 20px;
-}
+    margin-top: 0px;
+} */
 
-#arrow5{
+/* #arrow5{
     margin-right: 100px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
-}
+} */
 
-#arrow6{
+/* #arrow6{
     margin-top: 10px;
-    transform: rotate(-50deg);
+    transform: rotate(-50deg); */
     /* margin-right: 20px; */
-}
+/* } */
 
 @media screen and (max-width: 700px) {
     .list img {

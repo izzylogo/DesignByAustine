@@ -16,22 +16,22 @@ const reason = () => {
         <div className='reasonBody'>
             <ul className='list'>
                 <li>Our team provides you with...</li>
-                <img src={arrow} alt="arrow1" id='arrow'/>
+                {/* <img src={arrow} alt="arrow1" id='arrow'/> */}
                 <li>latest interactive UI designs</li>
-                <img src={arrow2} alt="arrow2" id='arrow2'/>
+                {/* <img src={arrow2} alt="arrow2" id='arrow2'/> */}
                 <li>UX Analysis </li>
-                <img src={arrow3} alt="arrow3" id='arrow3'/>
+                {/* <img src={arrow3} alt="arrow3" id='arrow3'/> */}
             </ul>
             <div className='sitting'>
                 <img src={mansit} alt="man" className='man'/>
             </div>
             <ul className='list' id='sec'>
                 <li>Developers walkthrough</li>
-                <img src={arrow4} alt="arrow4" id='arrow4'/>
+                {/* <img src={arrow4} alt="arrow4" id='arrow4'/> */}
                 <li>Full case study</li>
-                <img src={arrow5} alt="arrow5" id='arrow5'/>
+                {/* <img src={arrow5} alt="arrow5" id='arrow5'/> */}
                 <li>Design to your satisfaction  </li>
-                <img src={arrow6} alt="arrow6" id='arrow6'/>
+                {/* <img src={arrow6} alt="arrow6" id='arrow6'/> */}
 
             </ul>
         </div>
